@@ -4,12 +4,40 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <!--
+    FOnt Google Montserran
+    --> 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+    </style>
     <title>Testing</title>
 </head>
 <body>
-    <header>
-        <h1>Fazendo Teste de Validação</h1>
-    </header>
-    <p>Minha Vida é Uma Merda</p>
+    <form action="">
+    <div class="titulo">
+    <h1>Faça Seu Login</h1>
+    <div class="barra-horizontal"></div>
+    </div>
+    <div class="campo-input">
+    <label for="email">Seu e-mail*</label>
+    <input type="email" name="email" id="email">    
+    </div>
+    <div class="campo-input">
+    <label for="password">Sua Senha*</label>
+    <input type="password" name="password" id="Senha">
+    </div>
+    <div class="lembrar-me">
+    <input type="checkbox" name="" id="">
+    <p>Lembrar-me</p>
+    </div>
+    <button>Entrar</button>
+    <p class="esquece-senha"> 
+        Esqueceu sua Senha?
+        <a href="http://www.google.com" target="_blank" rel="noopener noreferrer">CLique Aqui!</a>
+    </p>
+    </form>
 </body>
 </html>
