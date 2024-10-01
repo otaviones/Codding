@@ -5,7 +5,7 @@
 }
 body {
     font-family: "Montserrat";
-    color: #404040;
+    color: #ffffff;
     display: flex;
     height: 100vh;
     justify-content: center;
@@ -19,7 +19,8 @@ body {
 
 form {
     padding: 50px;
-    background-color: white;
+    opacity: 100%;
+    background-color: rgba(151, 130, 130, 0.5);
     border-radius: 30px;
     display: flex;
     flex-direction: column;
@@ -45,7 +46,8 @@ input {
     padding: 10px 20px;
     border-radius: 10px;
     border: none;
-    background-color: #f1f1f1;
+    opacity: 100%;
+    background-color: rgba(77, 69, 69, 0.5);
 }
 
 a {
@@ -67,6 +69,7 @@ a {
     background-color: #f87842;
     height: 5px;
     width: 210px;
+    align-self: center;
 }
 
 .campo-input {
@@ -81,6 +84,10 @@ a {
 }
 
 h1 {
+    align-self: center;
     font-size: 24px;
 }
 
+.sudo-but:hover {
+    background-image: linear-gradient(rgb(0, 255, 179), rgb(0, 124, 128), purple);
+}
