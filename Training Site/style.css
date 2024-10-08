@@ -76,6 +76,7 @@ a {
     display: flex;
     flex-direction: column;
     gap: 5px;
+    border: none;
 }
 
 .lembrar-me {
@@ -90,4 +91,5 @@ h1 {
 
 .sudo-but:hover {
     background-image: linear-gradient(rgb(0, 255, 179), rgb(0, 124, 128), purple);
+    cursor: pointer;
 }
